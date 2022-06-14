@@ -4,12 +4,12 @@
     "C:\\Projects\\Outros\\todo-api\\src\\Todo.Infra\\Todo.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Aplication.csproj": {
+    "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Aplication.csproj",
-        "projectName": "Todo.Aplication",
-        "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Aplication.csproj",
+        "projectUniqueName": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj",
+        "projectName": "Todo.Application",
+        "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj",
         "packagesPath": "C:\\Users\\André\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\obj\\",
         "projectStyle": "PackageReference",
@@ -202,8 +202,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Aplication.csproj": {
-                "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Aplication.csproj"
+              "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj": {
+                "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj"
               },
               "C:\\Projects\\Outros\\todo-api\\src\\Todo.Domain\\Todo.Domain.csproj": {
                 "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Domain\\Todo.Domain.csproj"

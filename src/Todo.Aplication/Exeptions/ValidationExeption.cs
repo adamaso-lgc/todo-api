@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Todo.Aplication.Exeptions
+namespace Todo.Application.Exceptions
 {
     public class ValidationException : ApplicationException
     {

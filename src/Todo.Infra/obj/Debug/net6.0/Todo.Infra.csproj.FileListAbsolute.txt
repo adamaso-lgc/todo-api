@@ -7,9 +7,7 @@ C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Infra.deps.json
 C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Infra.runtimeconfig.json
 C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Infra.dll
 C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Infra.pdb
-C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Aplication.dll
 C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Domain.dll
-C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Aplication.pdb
 C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Domain.pdb
 C:\Projects\Outros\todo-api\src\Todo.Infra\obj\Debug\net6.0\Todo.Infra.csproj.CopyComplete
 C:\Projects\Outros\todo-api\src\Todo.Infra\obj\Debug\net6.0\Todo.Infra.dll
@@ -17,3 +15,5 @@ C:\Projects\Outros\todo-api\src\Todo.Infra\obj\Debug\net6.0\refint\Todo.Infra.dl
 C:\Projects\Outros\todo-api\src\Todo.Infra\obj\Debug\net6.0\Todo.Infra.pdb
 C:\Projects\Outros\todo-api\src\Todo.Infra\obj\Debug\net6.0\Todo.Infra.genruntimeconfig.cache
 C:\Projects\Outros\todo-api\src\Todo.Infra\obj\Debug\net6.0\ref\Todo.Infra.dll
+C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Application.dll
+C:\Projects\Outros\todo-api\src\Todo.Infra\bin\Debug\net6.0\Todo.Application.pdb

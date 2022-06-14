@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Todo.Domain.Enums;
 
-namespace Todo.Aplication.UseCases.Users.CreateUser
+namespace Todo.Application.UseCases.Users.CreateUser
 {
     public class CreateUserCommand : IRequest<UserViewModel>
     {

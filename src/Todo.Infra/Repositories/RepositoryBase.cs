@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using Todo.Aplication.Repositories;
+using Todo.Application.Repositories;
 using Todo.Domain.Common;
 using Todo.Infra.Database.Context;
 

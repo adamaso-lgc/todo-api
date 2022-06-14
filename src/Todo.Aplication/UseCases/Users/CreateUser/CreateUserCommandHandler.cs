@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Todo.Aplication.Repositories;
-using Todo.Aplication.Utilities;
+using Todo.Application.Repositories;
+using Todo.Application.Utilities;
 using Todo.Domain.Entities;
 
-namespace Todo.Aplication.UseCases.Users.CreateUser
+namespace Todo.Application.UseCases.Users.CreateUser
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, UserViewModel>
     {

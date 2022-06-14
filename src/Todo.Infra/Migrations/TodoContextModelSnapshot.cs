@@ -42,7 +42,6 @@ namespace Todo.Infra.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModifiedDate")
@@ -87,7 +86,6 @@ namespace Todo.Infra.Migrations
                         .HasColumnType("varchar(100)");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModifiedDate")

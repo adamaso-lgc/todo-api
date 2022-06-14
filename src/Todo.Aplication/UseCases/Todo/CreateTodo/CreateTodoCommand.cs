@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Todo.Aplication.UseCases.Users;
+using Todo.Application.UseCases.Users;
 
-namespace Todo.Aplication.UseCases.Todo.CreateTodo
+namespace Todo.Application.UseCases.Todo.CreateTodo
 {
     public class CreateTodoCommand
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Todo.Aplication.UseCases.Users
+namespace Todo.Application.UseCases.Users
 {
     public class UserViewModel
     {

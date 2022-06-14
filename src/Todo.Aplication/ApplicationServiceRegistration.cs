@@ -10,9 +10,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Todo.Aplication.Behaviours;
+using Todo.Application.Behaviours;
 
-namespace Todo.Aplication
+namespace Todo.Application
 {
     public static class ApplicationServiceRegistration
     {

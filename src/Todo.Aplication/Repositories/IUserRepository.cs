@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Todo.Domain.Entities;
 
-namespace Todo.Aplication.Repositories
+namespace Todo.Application.Repositories
 {
     public interface IUserRepository : IRepositoryBase<User>
     {

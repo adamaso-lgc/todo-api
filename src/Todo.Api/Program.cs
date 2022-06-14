@@ -1,4 +1,4 @@
-using Todo.Aplication;
+using Todo.Application;
 using Todo.Infra;
 
 var builder = WebApplication.CreateBuilder(args);

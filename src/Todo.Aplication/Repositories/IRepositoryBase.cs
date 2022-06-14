@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Todo.Domain.Common;
 
-namespace Todo.Aplication.Repositories
+namespace Todo.Application.Repositories
 {
     public interface IRepositoryBase<T> where T : Entity
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Todo.Domain.Entities;
 
-namespace Todo.Aplication.Utilities
+namespace Todo.Application.Utilities
 {
     public static class JwtGenerator
     {

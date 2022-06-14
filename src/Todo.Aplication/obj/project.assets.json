@@ -1178,9 +1178,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Aplication.csproj",
-      "projectName": "Todo.Aplication",
-      "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Aplication.csproj",
+      "projectUniqueName": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj",
+      "projectName": "Todo.Application",
+      "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj",
       "packagesPath": "C:\\Users\\André\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\obj\\",
       "projectStyle": "PackageReference",
