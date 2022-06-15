@@ -28,7 +28,6 @@
   <ItemGroup>
     <Folder Include="UseCases\Todo\GetTodoList\" />
     <Folder Include="UseCases\Todo\UpdateTodo\" />
-    <Folder Include="UseCases\Users\Login\" />
   </ItemGroup>
 
 </Project>

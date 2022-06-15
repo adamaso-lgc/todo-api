@@ -31,7 +31,7 @@ namespace Todo.Application.Tests.Users
         }
 
         [Test]
-        public async Task CreateUser_UserNotExists_ReturnNewUserAsync()
+        public async Task CreateUser1_UserNotExists_ReturnNewUserAsync()
         {
             // Arrange
             var name = "André";
@@ -56,7 +56,28 @@ namespace Todo.Application.Tests.Users
         }
 
         [Test]
-        public void CreateUser_InvalidCommands_ReturnFalse()
+        public void CreateUser2_UserExists_ThrowApplicationDataExeption()
+        {
+            // Arrange
+            var name = "André";
+            var email = "andre@gmail.com";
+
+            var command = new CreateUserCommand()
+            {
+                Name = name,
+                Email = email,
+                Password = "1234",
+                Roles = Roles.Administrator
+            };
+
+            var handler = new CreateUserCommandHandler(_userRepository, _passwordHasher, Mapper);
+
+            Assert.That(() => handler.Handle(command, CancellationToken.None), Throws.Exception.TypeOf<ApplicationException>());
+
+        }
+
+        [Test]
+        public void CreateUser3_InvalidCommands_ReturnFalse()
         {
             var command = new CreateUserCommand();
            

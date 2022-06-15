@@ -1,3 +1,4 @@
+using Todo.Api.Middlewares;
 using Todo.Application;
 using Todo.Infra;
 
@@ -21,7 +22,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseMiddleware<ErrorHandlerMiddleware>();
 
 app.MapControllers();
 
