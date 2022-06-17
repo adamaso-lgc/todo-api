@@ -21,6 +21,8 @@ namespace Todo.Infra
 
             services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ITodoRepository, TodoRepository>();
+            services.AddScoped<ITodoListRepository, TodoListRepository>();
 
             return services;
         }

@@ -2,7 +2,9 @@
 using MediatR;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -11,6 +13,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Todo.Application.Behaviours;
+using Todo.Application.Utilities;
 
 namespace Todo.Application
 {
@@ -25,6 +28,8 @@ namespace Todo.Application
             //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
             services.AddTransient<IPasswordHasher, PasswordHasher>();
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<UserResolverService>();
 
             // Authentication
             var secret = Environment.GetEnvironmentVariable("JWT_SECRET");

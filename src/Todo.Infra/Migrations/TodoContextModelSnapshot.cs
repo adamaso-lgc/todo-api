@@ -50,18 +50,62 @@ namespace Todo.Infra.Migrations
                     b.Property<DateTime>("LimitDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Title")
+                    b.Property<int>("ListId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Note")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserId")
+                    b.Property<int>("Priority")
                         .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("ListId");
 
                     b.ToTable("TODO", "dbo");
+                });
+
+            modelBuilder.Entity("Todo.Domain.Entities.TodoList", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("TodoListId");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LastModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("LastModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TODO_LIST", "dbo");
                 });
 
             modelBuilder.Entity("Todo.Domain.Entities.User", b =>
@@ -111,18 +155,18 @@ namespace Todo.Infra.Migrations
 
             modelBuilder.Entity("Todo.Domain.Entities.TodoItem", b =>
                 {
-                    b.HasOne("Todo.Domain.Entities.User", "User")
-                        .WithMany("TodoItems")
-                        .HasForeignKey("UserId")
+                    b.HasOne("Todo.Domain.Entities.TodoList", "List")
+                        .WithMany("Items")
+                        .HasForeignKey("ListId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("User");
+                    b.Navigation("List");
                 });
 
-            modelBuilder.Entity("Todo.Domain.Entities.User", b =>
+            modelBuilder.Entity("Todo.Domain.Entities.TodoList", b =>
                 {
-                    b.Navigation("TodoItems");
+                    b.Navigation("Items");
                 });
 #pragma warning restore 612, 618
         }

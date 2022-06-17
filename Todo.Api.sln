@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Domain", "src\Todo.Dom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Infra", "src\Todo.Infra\Todo.Infra.csproj", "{36E59172-33DD-457F-93BA-76CB7F5765D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Application.Tests", "tests\Todo.Application.Tests\Todo.Application.Tests.csproj", "{CE18FB45-60EF-44FD-A788-49AEB0ABB775}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Application.UnitTests", "tests\Todo.Application.Tests\Todo.Application.UnitTests.csproj", "{CE18FB45-60EF-44FD-A788-49AEB0ABB775}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

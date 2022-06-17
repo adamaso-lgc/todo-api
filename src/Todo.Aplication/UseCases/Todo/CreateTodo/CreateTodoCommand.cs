@@ -8,7 +8,7 @@ using Todo.Application.UseCases.Users;
 
 namespace Todo.Application.UseCases.Todo.CreateTodo
 {
-    public class CreateTodoCommand
+    public class CreateTodoCommand : IRequest<int>
     {
         public string Title { get; set; }
         public DateTime LimitDate { get; set; }

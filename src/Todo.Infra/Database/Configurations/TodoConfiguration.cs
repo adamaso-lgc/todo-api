@@ -19,6 +19,9 @@ namespace Todo.Infra.Database.Configurations
             builder.Property(x => x.Id)
             .HasColumnName("TodoId");
 
+            builder.Property(x => x.Title)
+                .HasMaxLength(200);
+
             builder.Property(c => c.Done)
             .HasColumnType("bit");
 

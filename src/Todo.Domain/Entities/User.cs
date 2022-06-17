@@ -15,8 +15,6 @@ namespace Todo.Domain.Entities
         public string Email { get; set; }
         public string Password { get; set; }
         public Roles Role { get; set; }
-
-        [JsonIgnore]
-        public List<TodoItem> TodoItems { get; set; }
+        
     }
 }
