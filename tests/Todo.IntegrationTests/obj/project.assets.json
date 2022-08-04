@@ -1639,7 +1639,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Todo.Aplication/1.0.0": {
+      "Todo.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1658,10 +1658,10 @@
           "Todo.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Todo.Aplication.dll": {}
+          "bin/placeholder/Todo.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Todo.Aplication.dll": {}
+          "bin/placeholder/Todo.Application.dll": {}
         }
       },
       "Todo.Domain/1.0.0": {
@@ -1681,7 +1681,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
-          "Todo.Aplication": "1.0.0",
+          "Todo.Application": "1.0.0",
           "Todo.Domain": "1.0.0"
         },
         "compile": {
@@ -6058,10 +6058,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Todo.Aplication/1.0.0": {
+    "Todo.Application/1.0.0": {
       "type": "project",
-      "path": "../../src/Todo.Aplication/Todo.Aplication.csproj",
-      "msbuildProject": "../../src/Todo.Aplication/Todo.Aplication.csproj"
+      "path": "../../src/Todo.Application/Todo.Application.csproj",
+      "msbuildProject": "../../src/Todo.Application/Todo.Application.csproj"
     },
     "Todo.Domain/1.0.0": {
       "type": "project",

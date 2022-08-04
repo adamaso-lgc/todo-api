@@ -6197,8 +6197,8 @@
     },
     "Todo.Application/1.0.0": {
       "type": "project",
-      "path": "../../src/Todo.Aplication/Todo.Application.csproj",
-      "msbuildProject": "../../src/Todo.Aplication/Todo.Application.csproj"
+      "path": "../../src/Todo.Application/Todo.Application.csproj",
+      "msbuildProject": "../../src/Todo.Application/Todo.Application.csproj"
     },
     "Todo.Domain/1.0.0": {
       "type": "project",
@@ -6259,8 +6259,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj": {
-              "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Aplication\\Todo.Application.csproj"
+            "C:\\Projects\\Outros\\todo-api\\src\\Todo.Application\\Todo.Application.csproj": {
+              "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Application\\Todo.Application.csproj"
             },
             "C:\\Projects\\Outros\\todo-api\\src\\Todo.Infra\\Todo.Infra.csproj": {
               "projectPath": "C:\\Projects\\Outros\\todo-api\\src\\Todo.Infra\\Todo.Infra.csproj"

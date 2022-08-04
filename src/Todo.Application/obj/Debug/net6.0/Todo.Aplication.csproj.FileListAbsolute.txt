@@ -1,0 +1,15 @@
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.csproj.AssemblyReference.cache
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.AssemblyInfoInputs.cache
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.AssemblyInfo.cs
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.csproj.CoreCompileInputs.cache
+C:\Projects\Outros\todo-api\src\Todo.Application\bin\Debug\net6.0\Todo.Application.deps.json
+C:\Projects\Outros\todo-api\src\Todo.Application\bin\Debug\net6.0\Todo.Application.dll
+C:\Projects\Outros\todo-api\src\Todo.Application\bin\Debug\net6.0\Todo.Application.pdb
+C:\Projects\Outros\todo-api\src\Todo.Application\bin\Debug\net6.0\Todo.Domain.dll
+C:\Projects\Outros\todo-api\src\Todo.Application\bin\Debug\net6.0\Todo.Domain.pdb
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.csproj.CopyComplete
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.dll
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\refint\Todo.Application.dll
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\Todo.Application.pdb
+C:\Projects\Outros\todo-api\src\Todo.Application\obj\Debug\net6.0\ref\Todo.Application.dll
