@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nFIis49bguST2XF58xqx3TB6fZo25TetIm1BUWU6R18ZZ09awCN1T7MA20SOLHOaah7gAxdRtSHIThD5DvTYFA==",
+  "dgSpecHash": "bOvXLMSXcd+Qa4kkiVuG9B4BZFF5/sjTL8iJj39gYJu0THKVW10fjfMyrTPARE8Y3qJZFyi9GxaAnnThExKasQ==",
   "success": true,
   "projectFilePath": "/home/andre/Projects/Others/todo-api/src/Todo.Application/Todo.Application.csproj",
   "expectedPackageFiles": [
@@ -34,14 +34,15 @@
     "/home/andre/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/andre/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/home/andre/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
-    "/home/andre/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
+    "/home/andre/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
+    "/home/andre/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net6.0"
