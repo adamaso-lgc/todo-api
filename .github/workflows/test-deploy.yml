@@ -25,3 +25,9 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Publish
       run: dotnet publish src/Todo.Api/Todo.Api.csproj -c Release -o publish
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.2
+      with:
+        name: publish
+        path: todo-api/publish/**
+        if-no-files-found: error
